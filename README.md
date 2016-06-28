@@ -1,5 +1,4 @@
-# A BOMB DROP AREA for Testing JavaScript and jQuery
-
+# MY BOMB DROP AREA for TESTING
 
 ## Project Dependencies
 
