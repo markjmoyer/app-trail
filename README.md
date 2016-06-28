@@ -1,4 +1,4 @@
-# NASCAR HTML Cut-Ups
+# A BOMB DROP AREA for Testing JavaScript and jQuery
 
 
 ## Project Dependencies
@@ -11,7 +11,7 @@ Following are the dependencies and packages used in developing this website:
 * [Bower](http://bower.io/) - Package Manager for the Web
 * [jQuery](http://jquery.com/) - The Write Less, Do More JavaScript Library
 * [Modernizr](http://modernizr.com/) - Detects HTML5 and CSS3 features in the user’s browser
-* [LESS](http://lesscss.org/) - CSS Pre-Processor
+* [SASS](http://sass.org/) - CSS Pre-Processor
 
 &nbsp;
 
@@ -72,7 +72,7 @@ Assuming you have setup a local webserver, and assuming that you have cloned the
 source code for this project into your web root, you should be able to access the
 website at:
 
-* [http://localhost/nascar-html-cutups/default/dist/index.html](http://localhost/nascar-html-cutups/default/dist/index.html)
+* [http://localhost:8080
 
 #### Common Web Roots
 Following are the common locations where you will find your Web Root on your computer.
@@ -112,7 +112,7 @@ that exist for supporting the commands in the Gruntfile.
 From the command-line, in the root directory of the project, run the command `grunt`
 Once completed, this task will perform the following actions:
 
-* Compile LESS into CSS
+* Compile SASS into CSS
 * [Lint](http://csslint.net/) your Compiled CSS
 * Minify the Compiled CSS into a *.min.css file
 * [Lint](http://jshint.com/) your JavaScript
@@ -161,9 +161,9 @@ website are stored here in context-specific directories. Files are written here 
 the Grunt tasks described above. When authoring CSS or JavaScript, you should never
 write files directly into this directory.
 
-#### LESS / CSS
-When authoring CSS for this project, you should be authoring using LESS - writing
-\*.less files into the __/src/assets/less/__ directory. These files are then parsed
+#### SASS / CSS
+When authoring CSS for this project, you should be authoring using SASS - writing
+\*.scss files into the __/src/assets/scss/__ directory. These files are then parsed
 into CSS by the Grunt tasks described above.
 
 #### JavaScript
