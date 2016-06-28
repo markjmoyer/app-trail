@@ -1,0 +1,16 @@
+// Map
+
+.#{$title} {
+  .map {
+    background-color: $black;
+    height: 350px;
+    width: 500px;
+  }
+
+  // Info window size (optional)
+  .gomapMarker {
+    display: block;
+    height: auto;
+    width: 150px;
+}
+}
