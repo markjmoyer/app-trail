@@ -23,9 +23,7 @@ install to use the build tools.
 ### Installing Git
 Visit the [Git](http://git-scm.com/downloads) downloads page and select the installer
 for your particular environment. Run the installer and you're all set to start using
-the Git version control system. If you're new to Git, there is a
-[Git How-To](http://confluence.nascar.com/display/NAS/How-to%3A+Using+Git+SCM)
-in the Nascar Digital Media wiki that can help you get started.
+the Git version control system.
 
 Once you have installed Git, you will need to checkout the source code into your
 local web root. For more information on finding your web root, please see the section
@@ -33,7 +31,7 @@ titled [Viewing Your Local Website](#lws) below. Once you have identified your
 web root, open a command-line terminal and enter the following command:
 
     $> cd <YOUR_WEB_ROOT>
-    $> git clone http://<YOUR_USER_NAME>@stash.nascar.com/scm/nas/nascar-html-cutups.git
+    $> git clone http://git.markjmoyer.git/jsjq-testing
 
 ### Installing NodeJS and NPM
 Visit the [NodeJS](http://nodejs.org/) website and download the installer for your
@@ -139,7 +137,7 @@ in the background.
 In order to launch Grunt watch, all you need to do is open a command-line terminal,
 cd to your working directory and type `grunt watch`:
 
-    $> cd /Library/WebServer/Documents/nascar-html-cutups/default/
+    $> cd /to-your-directory/
     $> grunt watch
     $> Running "watch" task
     $> Waiting...
@@ -230,9 +228,9 @@ above, we could write the following content into the __meta.html__ file:
 
 Simply by defining the values in our __package.json__ file:
 
-    "title": "NASCAR HTML Cutups",
-    "description": "This is an HTML Generator for the NASCAR HTML Cutups",
-    "keywords": "NASCAR,nascar.com,HTML,templates",
+    "title": "JSJQ-Testing",
+    "description": "This is an HTML Generator",
+    "keywords": "HTML,templates",
 
 &nbsp;
 
@@ -241,10 +239,6 @@ Simply by defining the values in our __package.json__ file:
 
 Once Grunt has completed, you should test and ultimately deploy your code from the
 __/dist/__ directory, as this is the "distribution" version of the website. There
-is a [Bamboo Job](http://bamboo.nascar.com/browse/NH-HC/) setup to deploy code automatically
+is a [Bamboo Job](http://bamboo.com/browse/NH-HC/) setup to deploy code automatically
 when commits are made to the master branch of the Git repository. Issuing a Pull Request and
 merging that code will result in the final "dist" directory being deployed to the target server.
-
-You can see your code online after deployment completes at:
-
-* [http://dev-cutups.nascar.com/your-project-name/](http://dev-cutups.nascar.com/your-project-name/)
