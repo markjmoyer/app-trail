@@ -1,11 +1,11 @@
 {
-  "name": "jsjq-testing",
-  "version": "0.1.63",
-  "title": "JavaScript/jquery Testing",
-  "description": "This is one Bad Ass HTML Generator",
-  "keywords": "Bad Ass, HTML, templates",
+  "name": "app-trail",
+  "version": "0.1.85",
+  "title": "Appalachian Trail Hiking",
+  "description": "Appalachian Trail Hiking Gear",
+  "keywords": "Appalachian Trail Hiking, App Trail",
   "ogtype": "website",
-  "ogurl": "http://www.markjmoyer.com/",
+  "ogurl": "http://www.appalachian-trail-hiking.com/",
   "ogimage": "",
   "repository": "http://git.markjmoyer.git",
   "devDependencies": {

@@ -2,21 +2,19 @@
 // General layout overrides
 
 .#{$title} {
-    header {
-        h1,
-        h2,
-        p {
-            text-align: center;
-        }
 
-    }
+  h1,
+  h2,
+  p {
+    text-align: center;
+  }
 }
 
 
 
 // Tablet-specific layout overrides
 
-.tablet{
+.tablet {
   .#{$title} {
 
   }
@@ -26,7 +24,7 @@
 
 // Mobile-specific layout overrides
 
-.mobile{
+.mobile {
   .#{$title} {
 
   }

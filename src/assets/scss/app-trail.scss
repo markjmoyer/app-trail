@@ -2,13 +2,14 @@
 // * DO NOT MAKE PROJECT-SPECIFIC MODIFICATIONS TO THIS SECTION OF THE FILE
 // *******************************************************************************
 
-$title: jsjq-testing;
+$title: app-trail;
 
 // Base CSS
 @import 'base-fonts';
 @import 'base-colors';
 @import 'base-states';
 @import 'base-typography';
+@import 'base-amazon';
 
 
 // *******************************************************************************
@@ -19,5 +20,5 @@ $title: jsjq-testing;
 // Page-Component-Specific CSS
 @import 'page-layout';
 @import 'testapp';
-@import 'gomap';
+@import 'main-nav';
 // @import 'default';

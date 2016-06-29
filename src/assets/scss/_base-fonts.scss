@@ -5,14 +5,14 @@
 
 
 @font-face {
-	font-family: 'NeoSans-Italic';
-	src: url('../fonts/Neo-Sans-Italic/NeoSans-Italic.svg') format('svg');
-	src: url('../fonts/Neo-Sans-Italic/NeoSans-Italic.eot');
-    src: url('../fonts/Neo-Sans-Italic/NeoSans-Italic.eot?#iefix') format('embedded-opentype'),
-		 url('../fonts/Neo-Sans-Italic/NeoSans-Italic.woff') format('woff'),
-		 url('../fonts/Neo-Sans-Italic/NeoSans-Italic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'NeoSans-Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Neo-Sans-Italic/NeoSans-Italic.svg') format('svg');
+  src: url('../fonts/Neo-Sans-Italic/NeoSans-Italic.eot');
+  src: url('../fonts/Neo-Sans-Italic/NeoSans-Italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Neo-Sans-Italic/NeoSans-Italic.woff') format('woff'),
+       url('../fonts/Neo-Sans-Italic/NeoSans-Italic.ttf') format('truetype');
 }
 
 @font-face {

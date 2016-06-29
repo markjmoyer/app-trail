@@ -1,0 +1,11 @@
+.#{$title} {
+  .amzn-native-header,
+  .amzn-native-search-bar-content {
+    display: none;
+  }
+
+  .product-container {
+    margin: 0 auto;
+    width: 1024px;
+  }
+}

@@ -82,7 +82,7 @@ module.exports = function(grunt) {
       files: {
         expand: true,
         cwd: "<%= dirs.src %>/assets/scss",
-        src: "jsjq-testing.scss",
+        src: "app-trail.scss",
         dest: "<%= dirs.src %>/assets/css",
         ext: ".css"
       }
@@ -267,14 +267,49 @@ module.exports = function(grunt) {
               '<%= dirs.dest %>/assets/css/vendor/*.css',
               '<%= dirs.dest %>/assets/css/**/*.css'
             ],
-          '<%= dirs.dest %>/contact.html':
+          '<%= dirs.dest %>/news-events.html':
             [
               '<%= dirs.dest %>/assets/js/vendor/**/*.js',
               '<%= dirs.dest %>/assets/js/**/*.js',
               '<%= dirs.dest %>/assets/css/vendor/*.css',
               '<%= dirs.dest %>/assets/css/**/*.css'
             ],
-          '<%= dirs.dest %>/directions.html':
+          '<%= dirs.dest %>/tents.html':
+            [
+              '<%= dirs.dest %>/assets/js/vendor/**/*.js',
+              '<%= dirs.dest %>/assets/js/**/*.js',
+              '<%= dirs.dest %>/assets/css/vendor/*.css',
+              '<%= dirs.dest %>/assets/css/**/*.css'
+            ],
+          '<%= dirs.dest %>/boots.html':
+            [
+              '<%= dirs.dest %>/assets/js/vendor/**/*.js',
+              '<%= dirs.dest %>/assets/js/**/*.js',
+              '<%= dirs.dest %>/assets/css/vendor/*.css',
+              '<%= dirs.dest %>/assets/css/**/*.css'
+            ],
+          '<%= dirs.dest %>/mess-kits.html':
+            [
+              '<%= dirs.dest %>/assets/js/vendor/**/*.js',
+              '<%= dirs.dest %>/assets/js/**/*.js',
+              '<%= dirs.dest %>/assets/css/vendor/*.css',
+              '<%= dirs.dest %>/assets/css/**/*.css'
+            ],
+          '<%= dirs.dest %>/raingear.html':
+            [
+              '<%= dirs.dest %>/assets/js/vendor/**/*.js',
+              '<%= dirs.dest %>/assets/js/**/*.js',
+              '<%= dirs.dest %>/assets/css/vendor/*.css',
+              '<%= dirs.dest %>/assets/css/**/*.css'
+            ],
+          '<%= dirs.dest %>/sleepingbags.html':
+            [
+              '<%= dirs.dest %>/assets/js/vendor/**/*.js',
+              '<%= dirs.dest %>/assets/js/**/*.js',
+              '<%= dirs.dest %>/assets/css/vendor/*.css',
+              '<%= dirs.dest %>/assets/css/**/*.css'
+            ],
+          '<%= dirs.dest %>/maps.html':
             [
               '<%= dirs.dest %>/assets/js/vendor/**/*.js',
               '<%= dirs.dest %>/assets/js/**/*.js',

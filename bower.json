@@ -1,20 +1,20 @@
 {
-  "name": "jsjq-testing",
-  "version": "0.1.63",
+  "name": "app-trail",
+  "version": "0.1.85",
   "authors": [
     "Mark J Moyer <mark@markjmoyer.com>"
   ],
-  "description": "One Bad Ass Generator",
+  "description": "Appalachian Trail Hiking Gear",
   "main": "index.html",
   "moduleType": [
     "node"
   ],
   "keywords": [
-    "Bad Ass Gen",
-    "article-page"
+    "Appalachian Trail Hiking",
+    "app trail"
   ],
   "license": "MIT",
-  "homepage": "http://www.markjmoyer.com",
+  "homepage": "http://www.appalachian-trail-hiking.com",
   "private": true,
   "ignore": [
     "**/.*",
@@ -25,6 +25,7 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
+    "jquery.gomap": "1.3.3",
     "modernizr": "2.8.3",
     "sortable": "~0.6.0",
     "bootstrap": "~3.3.6"
