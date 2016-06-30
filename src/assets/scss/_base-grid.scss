@@ -3,17 +3,17 @@
 // *******************************************************************************
 
 
-    .#{$title} {
+.#{$title} {
   overflow: hidden;
 
   .row {
-    width: $maxWidth;
-    min-height: 1px;
     clear: both;
     margin: 0 auto;
+    min-height: 1px;
     overflow: hidden;
+    width: $maxwidth;
 
-    &.no-margin{
+    &.no-margin {
       margin: 0;
     }
 
@@ -22,65 +22,59 @@
       margin-right: auto;
     }
 
-    div[class*='col-'] {
-
-      min-height: 1px;
+    [class*='col-'] {
       float: left;
       margin: 0 $gutterWidthHalf;
-      padding: 0;
+      min-height: 1px;
       overflow: hidden;
-
-      &:first-child{
-        margin-left: $borderWidth;
-      }
-
-      &:last-child{
-        margin-right: $borderWidth;
-      }
-
-      &.no-margin{
-        margin: 0;
-      }
-
+      padding: 0;
     }
 
-    .col-thirds{
-      width: calc(( $maxWidth - ( $borderWidth*2 )) / 3);
-      margin: 0;
+    &:first-child {
+      margin-left: $borderwidth;
     }
 
-    .col-1{
-      width: 300px;
+    &:last-child {
+      margin-right: $borderwidth;
+    }
+  }
+
+  .col-thirds {
+    margin: 0;
+    width: calc(( $maxwidth - ( $borderwidth * 2 )) / 3);
     }
 
-    .col-2{
-      width: 650px;
-    }
+  .col-1 {
+    width: 300px;
+  }
 
-    .col-3{
-      width: 100%;
-      float: none;
-    }
+  .col-2 {
+    width: 650px;
+  }
+
+  .col-3 {
+    float: none;
+    width: 100%;
+  }
 
   }
 
 
 // Different rules inside of a container
 
-  .container{
+  .container {
 
     min-width: calc($maxWidthMobile - ( $borderWidthMobile*2));
-    max-width: $maxWidth;
+    max-width: $maxwidth;
     margin: 0 auto;
     overflow: hidden;
 
-   .row{
+   .row {
      width: 100%;
    }
 
   }
 
-}
 
 // Tablet Grid Classes
 
@@ -88,27 +82,27 @@
 
   .#{$title} {
 
-    .row{
+    .row {
       width: $maxWidthTablet;
       margin: 0 auto;
     }
 
-    div[class*='col-']{
+    div[class*='col-'] {
       min-height: 1px;
       float: left;
       margin: 0 $gutterWidthHalfTablet;
       padding: 0;
       overflow: hidden;
 
-      &:first-child{
+      &:first-child {
         margin-left: $borderWidthTablet;
       }
 
-      &:last-child{
+      &:last-child {
         margin-right: $borderWidthTablet;
       }
 
-      &.no-margin{
+      &.no-margin {
         margin: 0;
       }
 
