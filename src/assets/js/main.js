@@ -1,5 +1,8 @@
 $(document).ready(function(){
   activeNav.init();
+  productStyles.init();
+
+  
 });
 
 var activeNav = {
@@ -14,4 +17,13 @@ var activeNav = {
     });
 
   }
+}
+
+
+var productStyles = {
+  init: function () {
+
+
+
+}
 }

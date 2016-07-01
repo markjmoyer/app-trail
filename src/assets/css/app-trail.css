@@ -396,15 +396,6 @@ p {
   font-size: 14px;
   line-height: 24px; }
 
-.app-trail .amzn-native-header,
-.app-trail .amzn-native-search-bar-content {
-  display: none; }
-.app-trail .product-container {
-  margin: 0 auto;
-  width: 1024px; }
-.app-trail div.amzn-native-products-list div.amzn-native-product {
-  border: 5px solid #000; }
-
 body {
   background-color: #ffd659;
   margin: 0; }
@@ -465,24 +456,39 @@ body {
     padding-bottom: 35px;
     padding-top: 35px; } }
 
-.app-trail .hero-wrapper {
-  background-image: url("../../assets/img/springerMtn.jpg");
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  height: auto;
-  position: relative;
-  width: 100%; }
 .app-trail .hero {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; }
+  background-image: url("../../assets/img/springerMtn.jpg");
+  background-position: 0 -420px;
+  background-repeat: no-repeat;
+  height: 540px;
+  width: 1420px; }
 .app-trail .hero > h1 {
   margin: 0;
   padding: 0; }
+@media only screen and (min-width: 1440px) {
+  .app-trail .hero {
+    background-position: 0 -420px;
+    height: 560px;
+    width: 1440px; } }
+@media only screen and (min-width: 1200px) {
+  .app-trail .hero {
+    background-position: 0 -420px;
+    height: 460px;
+    width: 1200px; } }
+@media only screen and (max-width: 320px) {
+  .app-trail .hero-wrapper {
+    background-position: 0 -420px;
+    height: 160px;
+    width: 320px; } }
+
+.app-trail .amzn-native-header,
+.app-trail .amzn-native-search-bar-content {
+  display: none; }
+.app-trail .product-container {
+  margin: 0 auto;
+  width: 1024px; }
+
+.product-container .amzn-native-product {
+  border: 5px solid #000; }
 
 /*# sourceMappingURL=app-trail.css.map */

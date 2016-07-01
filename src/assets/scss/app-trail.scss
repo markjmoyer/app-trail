@@ -6,13 +6,11 @@ $title: app-trail;
 
 // Base CSS
 @import 'base-variables';
-
 @import 'base-fonts';
 @import 'base-colors';
 //@import 'base-grid';
 @import 'base-states';
 @import 'base-typography';
-@import 'base-amazon';
 
 
 // *******************************************************************************
@@ -25,3 +23,4 @@ $title: app-trail;
 @import 'testapp';
 @import 'main-nav';
 @import 'hero';
+@import 'products';

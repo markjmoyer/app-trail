@@ -1,0 +1,65 @@
+
+// General layout overrides
+
+.#{$title} {
+
+  .hero {
+    background-image: url('../../assets/img/springerMtn.jpg');
+    background-position: 0 -420px;
+    background-repeat: no-repeat;
+    height: 540px;
+    width: 1420px;
+    }
+
+  .hero > h1 {
+    margin: 0;
+    padding: 0;
+  }
+
+  // styles for MacBook Pro-sized screens and larger
+  @media only screen and (min-width: 1440px) {
+    .hero {
+      background-position: 0 -420px;
+      height: 560px;
+      width: 1440px;
+    }
+  }
+
+  // styles for wide screens
+  @media only screen and (min-width: 1200px) {
+    .hero {
+      background-position: 0 -420px;
+      height: 460px;
+      width: 1200px;
+    }
+  }
+
+  // styles for narrow screens
+  @media only screen and (max-width: 320px) {
+    .hero-wrapper {
+      background-position: 0 -420px;
+      height: 160px;
+      width: 320px;
+    }
+  }
+}
+
+
+
+// Tablet-specific layout overrides
+
+.tablet {
+  .#{$title} {
+
+  }
+}
+
+
+
+// Mobile-specific layout overrides
+
+.mobile {
+  .#{$title} {
+
+  }
+}
